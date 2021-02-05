@@ -1,0 +1,15 @@
+RewriteEngine On
+
+Rewriterule ^dashboard index.php
+Rewriterule ^auth login.php
+RewriteRule ^([a-zA-Z0-9_-]+)/auth login.php
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?val=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?val=$1&id=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?val=$1&id=$2&value=$3
+
+
+
+
+
+

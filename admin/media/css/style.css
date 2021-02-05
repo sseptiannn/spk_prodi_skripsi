@@ -1,0 +1,28 @@
+#dataConfirmModal{
+	width:50%;
+	margin:0 auto;
+	display:block;
+	background-color: #ffffff;
+	height:220px;
+	margin-top:25px;
+}
+th{
+	text-align:center !important;
+}
+.centra{
+	text-align:center !important;
+}
+.kanan{
+	text-align:right !important;
+}
+.kiri{
+	text-align:left !important;
+}
+.nomor{
+	text-align:center !important;
+	width:80px;
+}
+
+#cboxPrevious, #cboxNext, #cboxCurrent{
+visibility: hidden;
+}
